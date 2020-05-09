@@ -1,3 +1,4 @@
+// Taking the smallest value and placing them in there proper order
 #include<iostream>
 using namespace std;
 void selectionSort(int A[],int n){
