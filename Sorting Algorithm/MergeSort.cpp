@@ -1,5 +1,7 @@
 //example of Divide and Conquer
 //Its a complement of QuickSort
+//Time	Complexity,	T(n)	=	O(nlogn).
+
 //This	algorithm	is	used	for	sorting	a	linked	list
 //Time complexity : T(nlogn) which is much better than bubble,insertion,selection sort
 #include<iostream> 
