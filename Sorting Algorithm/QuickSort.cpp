@@ -1,7 +1,8 @@
 // pivot is always the last element even for partition
 //Divide and Conquer algo
 //Uses Recursive Call
-//Time	Complexity,	T(n)	=	O(nlogn).
+//Time	Complexity,	T(n)=O(nlogn). [Best + Average Case]
+// Worst	case	Complexity:	O(n2)
 //Elements at left is less than pivot and elements at right is greater than pivot
 #include<iostream>
 using namespace std;
