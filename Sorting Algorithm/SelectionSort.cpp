@@ -1,4 +1,11 @@
 // Taking the smallest value and placing them in there proper order
+
+// After first iteration the smallest number get sorted 8in the array.
+// sorting from top to bottom
+// Efficent : Selection > Bubble [Number of swap are less than bubble sort]
+//	Time Complexity = O(n*2)
+//  Slow Sorting Algorithm
+
 #include<iostream>
 using namespace std;
 void selectionSort(int A[],int n){
@@ -35,6 +42,5 @@ int main(){
 	}
 	
 	
-//	Time Complexity = O(n*2)
-//  Slow Sorting Algorithm
+
 }

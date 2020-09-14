@@ -2,7 +2,8 @@
 
 //	Time Complexity = O(n*2)
 //  Slow Sorting Algorithm
-
+// After first iteration the largest number in array gets sorted
+// Sorting from bottom to top
 #include<iostream>
 using namespace std;
 void BubbleSort(int A[],int n){

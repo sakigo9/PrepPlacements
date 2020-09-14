@@ -1,0 +1,40 @@
+// 1.Abstraction : Denotes the essential characteritics of an object that distinquishes it from all the other kinds of objects.
+// 2. Encapsulation is the process of hiding all of the details of an object that do not continue to its essential characteristics.
+// 3. Access Specifier : Public Protected Private
+// 3.1  the public access specifier allow a class to expose its member variables and member function to other functions and objects.
+// 3.3  The Private allows DATA HIDING as it hides the member functions and member variables to other class objects and functions.
+// 3.2 Protected is same.
+
+
+
+#include<iostream>
+using namespace std;
+
+class Car{
+	
+	private:
+		char model[12];
+		void brand(){
+			cout<<"function brand";
+		}
+	public:
+		char color[21];
+		void speed(){
+			cout<<"function speed";
+		}
+	protected:
+		char location[23];
+		void price(){
+			cout<<"function price";
+		}
+
+};
+
+
+int main(){
+	Car ford;
+	ford.speed();
+	// ford.brand();             error
+	//cout<< ford.location;      error
+	// ford.price();             error
+}
