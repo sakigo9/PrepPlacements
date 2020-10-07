@@ -5,6 +5,7 @@
 // After first iteration the largest number in array gets sorted
 // Sorting from bottom to top
 #include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 void BubbleSort(int A[],int n){
 	
@@ -13,9 +14,7 @@ void BubbleSort(int A[],int n){
 		for(int j=0;j<n-1-i;j++)
 		{
 			if(A[j]>A[j+1]){
-				int temp=A[j];
-				A[j]=A[j+1];
-				A[j+1]=temp;
+				swap(A[j],A[j+1]);
 			}
 		}
 	}
