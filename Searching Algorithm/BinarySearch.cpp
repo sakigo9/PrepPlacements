@@ -1,4 +1,5 @@
-//Time	Complexity:	O(logn).	Space	Complexity:	O(1)	
+//Time	Complexity:	O(nlogn).	Space	Complexity:	O(1)	
+// As we are iterarting through half the array in each call.
 // Array must be sorted 
 #include <bits/stdc++.h> 
 using namespace std; 
@@ -20,12 +21,13 @@ int BinarySearch(int arr[], int l, int r, int x)
 
 int main(void) 
 { 
-	int A[100];
+	
 	int n;
 	int key;
 	int i;
 	cout<<"Enter the number of elements in array"<<endl;
 	cin>>n;
+	int A[n];  // otimizing the space
 	for(int i=0;i<n;i++)
 	{
 		cin>>A[i];
