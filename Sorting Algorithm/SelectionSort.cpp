@@ -26,6 +26,7 @@ void selectionSort(int A[],int n){
 	}
 	
 }
+//Main Function
 int main(){
 	int A[100];
 	int n;
@@ -36,7 +37,7 @@ int main(){
 		cin>>A[i];
 	}
 	
-	selectionSort(A,n);
+	selectionSort(A,n);//Calling selection sort function
 	for(int i=0;i<n;i++)
 	{
 		cout<<A[i]<<" ";
