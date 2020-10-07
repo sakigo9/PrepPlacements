@@ -14,13 +14,13 @@ class Basics{
 	int b;
 	public:
 		void display(){
-			cout<<"\n value of variables"<<a;
-			cout<<" \n value of  second variables"<<b;
+			cout<<endl<<"value of variables"<<a;
+			cout<<endl<<"value of  second variables"<<b;
 		}
 		void accept(){
-			cout<<"\nEnter the value of a";
+			cout<<endl<<"Enter the value of a";
 			cin>>a;
-			cout<<"\nEnter the value of b";
+			cout<<endl<<"Enter the value of b";
 			cin>>b;
 		}
 };
