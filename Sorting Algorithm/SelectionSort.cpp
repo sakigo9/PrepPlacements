@@ -7,6 +7,8 @@
 //  Slow Sorting Algorithm
 
 #include<iostream>
+// Adding Library
+#include<bits/stdc++.h>
 using namespace std;
 void selectionSort(int A[],int n){
 	
@@ -19,9 +21,8 @@ void selectionSort(int A[],int n){
 			}
 			
 		}
-		int temp=A[i];
-			A[i]=A[iMin];
-			A[iMin]=temp;
+		// swaping the two numbers
+		swap(A[i],A[iMin]);
 	}
 	
 }
