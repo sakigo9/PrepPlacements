@@ -8,6 +8,9 @@ using namespace std;
 class Sample{
 	private:
 		int a;
+	Sample(){
+		cout<<"Constructor Call"<<endl;  //added const
+	}
 	public:
 		static int b;
 		static void value(){
