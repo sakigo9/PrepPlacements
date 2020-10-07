@@ -22,6 +22,9 @@ class Car{
 		void speed(){
 			cout<<"function speed";
 		}
+	          void cost(int a){
+		   cout<<" Spped function : " a<<endl;
+		  }
 	protected:
 		char location[23];
 		void price(){
@@ -34,6 +37,8 @@ class Car{
 int main(){
 	Car ford;
 	ford.speed();
+	Car swift;
+	swift.cost(7000000);  // parameterized call
 	// ford.brand();             error
 	//cout<< ford.location;      error
 	// ford.price();             error
