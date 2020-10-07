@@ -1,8 +1,8 @@
 //Time	complexity:	O(n)
 //	Space	complexity: O(1)
-
 #include<iostream>
 using namespace std;
+// Function For Linear Search
 int LinearSearch(int A[],int n,int key){
 	for(int i=0;i<n;i++){
 		if(A[i]==key){
@@ -27,7 +27,7 @@ int main(){
 	cout<<"Enter the number to be searched"<<endl;
 	cin>>key;
 	i=LinearSearch(A,n,key);
-	cout<<"Index of the searching is "<<i<<endl;
+	cout<<"The number is Found at the "<<i<<" location "<<endl;
 	
 	
 	

@@ -7,6 +7,8 @@
 //  Slow Sorting Algorithm
 
 #include<iostream>
+// Adding Library
+#include<bits/stdc++.h>
 using namespace std;
 void selectionSort(int A[],int n){
 	
@@ -19,12 +21,12 @@ void selectionSort(int A[],int n){
 			}
 			
 		}
-		int temp=A[i];
-			A[i]=A[iMin];
-			A[iMin]=temp;
+		// So this Swap function is an inbuild function and will save a lot of time.
+		swap(A[i],A[iMin]);
 	}
 	
 }
+//Main Function
 int main(){
 	int A[100];
 	int n;
@@ -35,7 +37,7 @@ int main(){
 		cin>>A[i];
 	}
 	
-	selectionSort(A,n);
+	selectionSort(A,n);//Calling selection sort function
 	for(int i=0;i<n;i++)
 	{
 		cout<<A[i]<<" ";

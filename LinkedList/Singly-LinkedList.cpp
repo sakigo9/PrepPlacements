@@ -7,7 +7,7 @@
 using namespace std;
 
 class Node{
-	public:;
+	public:
 		int key;
 		int data;
 		Node* next;
