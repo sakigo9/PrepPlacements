@@ -10,8 +10,12 @@ void show(int a[])
 } 
   
 int main() 
-{ 
-    int a[10]= {1, 5, 8, 9, 6, 7, 3, 4, 2, 0}; 
+{  
+    int n;
+  cin>>n;
+  int a[n];
+  for(int i = 0; i < n; ++i) cin>>a[i];
+    //int a[10]= {1, 5, 8, 9, 6, 7, 3, 4, 2, 0}; 
     cout << "\n The array before sorting is : "; 
     show(a); 
   
