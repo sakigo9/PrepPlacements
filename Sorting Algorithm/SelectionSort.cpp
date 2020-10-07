@@ -21,7 +21,7 @@ void selectionSort(int A[],int n){
 			}
 			
 		}
-		// swaping the two numbers
+		// So this Swap function is an inbuild function and will save a lot of time.
 		swap(A[i],A[iMin]);
 	}
 	
