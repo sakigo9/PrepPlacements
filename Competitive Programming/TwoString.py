@@ -10,8 +10,8 @@ import sys
 def twoStrings(s1, s2):
     c=0
     for i in range(len(s1)):
-        for j in range(len(s2)):
-            if i<len(s1)-1 and j<len(s2)-1:
+        
+            if i<len(s1)-1 :
                 if s1[i]==s2[j]:
                     c+=1
             
