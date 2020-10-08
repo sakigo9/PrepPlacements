@@ -12,20 +12,20 @@ int LinearSearch(int A[],int n,int key){
 	}
 	return -1;
 }
-
+//Main function
 int main(){
 	int A[100];
 	int n;
 	int key;
 	int i;
 	cout<<"Enter the number of elements in array"<<endl;
-	cin>>n;
+	cin>>n;//Taking n as input
 	for(int i=0;i<n;i++)
 	{
 		cin>>A[i];
 	}
 	cout<<"Enter the number to be searched"<<endl;
-	cin>>key;
+	cin>>key;//Taking key as input
 	i=LinearSearch(A,n,key);
 	cout<<"The number is Found at the "<<i<<" location "<<endl;
 	
