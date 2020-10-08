@@ -6,11 +6,10 @@ import sys
 
 # Complete the birthdayCakeCandles function below.
 def birthdayCakeCandles(ar):
-    s=max(ar)
+    
     c=0
-    for i in ar:
-        if i>=s:
-            c+=1
+    for i in ar and i>=max(ar):
+        c+=1
     return(c)        
 
 
