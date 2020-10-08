@@ -6,12 +6,13 @@
 //Elements at left is less than pivot and elements at right is greater than pivot
 #include<iostream>
 using namespace std;
-
+//Swap function with void return type
 void swap(int *a,int *b){
 	int temp=*a;
 	*a=*b;
 	*b=temp;
 }
+//Partition function with int return type
 int Partition(int *A,int start,int end){
 	int pivot = A[end];    //making rightmost as pivot
 	int pindex=start;
@@ -24,6 +25,7 @@ int Partition(int *A,int start,int end){
 	swap(A[pindex],A[end]); // updating pivot by swapping previous pivot to its correct place
 	return pindex;
 }
+//Quick Sort Function with void return type
 void QuickSort(int *A,int start,int end){
 	if(start<end){
 		int pindex=Partition(A,start,end);
@@ -31,6 +33,7 @@ void QuickSort(int *A,int start,int end){
 		QuickSort(A,pindex,end);
 	}
 }
+//Main Function
 int main(){
 	int A[100];
 	int n;
