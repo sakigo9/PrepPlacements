@@ -6,7 +6,8 @@
 // Sorting from bottom to top
 #include<iostream>
 #include<bits/stdc++.h>
-using namespace std;
+using namespace std;//using namespace standard library
+//Bubble sort function with void return type
 void BubbleSort(int A[],int n){
 	int flag;
 	for(int i=0;i<n;i++)
@@ -24,7 +25,7 @@ void BubbleSort(int A[],int n){
 	}
 }
 	
-
+//Main Function
 int main(){
 	int A[100];
 	int n;
@@ -35,7 +36,7 @@ int main(){
 		cin>>A[i];
 	}
 	
-	BubbleSort(A,n);
+	BubbleSort(A,n);//Calling Bubble sort function
 	for(int i=0;i<n;i++)
 	{
 		cout<<A[i]<<" ";
