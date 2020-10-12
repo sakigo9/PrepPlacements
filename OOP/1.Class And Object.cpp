@@ -8,11 +8,11 @@
 #include<iostream>
 using namespace std;
 
-
+//Creating class with name Basics
 class Basics{
 	float a;
 	int b;
-	public:
+	public://Access specifier
 		void display(){
 			cout<<endl<<"value of variables"<<a;
 			cout<<endl<<"value of  second variables"<<b;
