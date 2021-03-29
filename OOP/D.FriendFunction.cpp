@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 class B;
-class A{
-	private:
+class A{//class created named A
+	private://acess specifier
 		int x;
 	public:
 		void setdata(int i){

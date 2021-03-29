@@ -1,6 +1,6 @@
 s=input("\n")
 n=len(s)
-
+#password
 c,a,b,d=0,0,0,0
 t=0
 g=0

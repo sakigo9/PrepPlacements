@@ -10,14 +10,14 @@
 #include<iostream>
 using namespace std;
 
-class Car{
+class Car{//Cfeating class car
 	
-	private:
+	private://acess specifier private
 		char model[12];
 		void brand(){
 			cout<<"function brand";
 		}
-	public:
+	public://acess specifier public
 		char color[21];
 		void speed(){
 			cout<<"function speed";

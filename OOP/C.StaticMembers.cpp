@@ -5,13 +5,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class Sample{
-	private:
+class Sample{//class created named sample
+	private://acess specifier
 		int a;
 	Sample(){
 		cout<<"Constructor Call"<<endl;  //added const
 	}
-	public:
+	public://acess specifier
 		static int b;
 		static void value(){
 			cout<<"Static Value : "<<b;
@@ -25,3 +25,4 @@ int main(){
 //	cout<<s.b<<endl;
 	Sample::value();  //Called without an object
 }
+//Cout<<"Static variables and functions";
