@@ -1,0 +1,25 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    vector<int> a={12,11,56,34,22,9};
+    
+    reverse(a.begin(),a.end());
+    for(int i=0;i<a.size();i++){
+        cout<<a[i]<<" ";
+    }
+    string s="Saket";
+    reverse(s.begin(),s.end());
+    cout<<endl<<s;
+  
+
+  // reverse for an int array
+  int b[]={12,11,56,34,22,9,39,1,19};
+    int n=sizeof(b)/sizeof(b[0]);
+    reverse(b,b+n);
+    for(int i=0;i<n;i++){
+        cout<<b[i]<<" ";
+    }
+}

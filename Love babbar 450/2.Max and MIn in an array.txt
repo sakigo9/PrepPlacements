@@ -1,0 +1,17 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    vector<int> a={12,11,56,34,22,9};
+    int b[]={12,11,56,34,22,9,39,1,19};
+    int n=sizeof(b)/sizeof(b[0]);
+    cout<<*min_element(b,b+n);
+    cout<<endl;
+    cout<<*max_element(b,b+n);
+    cout<<endl<<" vector"<<endl;
+    cout<<*min_element(a.begin(),a.end())<<endl;
+    cout<<*max_element(a.begin(),a.end());
+    
+}
