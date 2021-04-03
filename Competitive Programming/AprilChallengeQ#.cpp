@@ -10,7 +10,7 @@ int main(){
             cin>>a[i];
         }
         
-        string ="a*****basdfg";
+        string s="a*****basdfg";
         //cin>>s;
         int k=a[1];
         int m=0;
