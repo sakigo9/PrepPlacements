@@ -1,5 +1,6 @@
 /* Read input from STDIN. Print your output to STDOUT*/
 #include<iostream>
+#include<vector>
 using namespace std;
 bool check(string s2, string s1){
     int n=s1.size();
